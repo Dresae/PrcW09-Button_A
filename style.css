@@ -53,3 +53,46 @@ body {
     backdrop-filter: blur(15px);
 }
 
+.btn:hover a {
+    letter-spacing: 3px;
+}
+
+.btn a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.149), transparent);
+    transform: skewX(45deg);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+a:hover::before {
+    transform: skewX(45deg) translateX(200%);
+    transition-delay: 0s;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--clr-glow);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.btn:hover::before {
+    bottom: 0px;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
