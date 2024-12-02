@@ -96,3 +96,46 @@ a:hover::before {
     border-radius: 30px;
     transition-delay: 0.5s;
 }
+
+.btn:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--clr-glow);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+  
+.btn:hover::after {
+    top: 0px;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s;
+}
+
+.btn:nth-child(1):before,
+.btn:nth-child(1):after {
+    background: var(--clr);
+    box-shadow: 0 0 5px var(--clr), 0 0 15px var(--clr), 0 0 30px var(--clr),
+    0 0 60px var(--clr);
+}
+
+.btn:nth-child(2):before,
+.btn:nth-child(2):after {
+    background: var(--clr);
+    box-shadow: 0 0 5px var(--clr), 0 0 15px var(--clr), 0 0 30px var(--clr),
+    0 0 60px var(--clr);
+}
+
+.btn:nth-child(3):before,
+.btn:nth-child(3):after {
+    background: var(--clr);
+    box-shadow: 0 0 5px var(--clr), 0 0 15px var(--clr), 0 0 30px var(--clr),
+    0 0 60px var(--clr);
+}
