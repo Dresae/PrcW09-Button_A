@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: hsl(0deg 0% 5.1%);
+    background: hsl(279, 93%, 11%);
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 10;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 20px;
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
