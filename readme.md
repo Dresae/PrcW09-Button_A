@@ -1,4 +1,4 @@
-#  :bike: buttons with Glassmorphism Effect
+#  :bike: Buttons with Glassmorphism Effect
 
 ## :scroll: Overview 
 Sample description
