@@ -8,3 +8,6 @@ Sample description
 
 
 ***
+***
+
+![screenshot](pics/slowking.gif "...Then teach and guide yourself")
